@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Plugin.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="EBehaviorTree.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringBehaviors.cpp">
+      <Filter>SteeringBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinedSteeringBehaviors.cpp">
+      <Filter>SteeringBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="EFiniteStateMachine.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Plugin.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Behaviors.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="EBehaviorTree.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="EBlackboard.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringHelpers.h">
+      <Filter>SteeringBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringBehaviors.h">
+      <Filter>SteeringBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="CombinedSteeringBehaviors.h">
+      <Filter>SteeringBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="EDecisionMaking.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="EFiniteStateMachine.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="StatesAndTransitions.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SteeringBehavior">
+      <UniqueIdentifier>{e6f05722-bd3a-4403-8595-f1298e33c371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4d7aad8c-2691-44bf-baaf-0476545b5356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM">
+      <UniqueIdentifier>{916e0ae7-8ecd-493b-9b36-e2680e4e139d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behaviors">
+      <UniqueIdentifier>{25550e27-80c5-4ed1-9b3b-816e73fa6cb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
